@@ -4,9 +4,11 @@
 
 <ul>
   {{#each model as |blog|}}
-    {{blog-tile blog=blog}}
+    {{blog-tile blog=blog update="update" destroyBlog="destroyBlog"}}
   {{/each}}
 </ul>
+
+{{new-blog saveBlog2="saveBlog3"}}
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}

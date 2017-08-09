@@ -6,5 +6,6 @@
   {{else}}
      <button {{action 'imageShow'}}>Show image</button>
   {{/if}}
+   {{update-blog blog=blog update="update"}}
+  <button {{action 'delete' blog}}>Delete Post</button>
 </li>
- 

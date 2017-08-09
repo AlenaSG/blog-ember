@@ -1,0 +1,13 @@
+<h1> Hi! Kon'nichiwa! Welcome to my blog!</h1>
+
+
+
+<ul>
+  {{#each model as |blog|}}
+  <li>{{blog.heading}}</li>
+  <!-- {{blog-tile blog=blog}} -->
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}

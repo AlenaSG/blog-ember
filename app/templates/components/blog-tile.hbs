@@ -1,11 +1,11 @@
 <li>
-  {{blog.date}} <br>{{blog.heading}} <br>{{blog.tag}}
+
+{{#link-to 'blog' blog.id}}<h3>{{blog.heading}}</h3>{{/link-to}} <br>{{blog.date}} {{blog.tag}} 
+
   {{#if isImageShowing}}
     <p><img src={{blog.image}} alt={{blog.heading}} width=600px ></p>
     <button {{action 'imageHide'}}>Hide image</button>
   {{else}}
      <button {{action 'imageShow'}}>Show image</button>
   {{/if}}
-   {{update-blog blog=blog update="update"}}
-  <button {{action 'delete' blog}}>Delete Post</button>
 </li>

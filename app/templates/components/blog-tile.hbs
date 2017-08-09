@@ -1,3 +1,10 @@
 <li>
-  {{rental.date}} {{rental.heading}} {{rental.tag}} {{rental.image}}
+  {{blog.date}} <br>{{blog.heading}} <br>{{blog.tag}}
+  {{#if isImageShowing}}
+    <p><img src={{blog.image}} alt={{blog.heading}} width=600px ></p>
+    <button {{action 'imageHide'}}>Hide image</button>
+  {{else}}
+     <button {{action 'imageShow'}}>Show image</button>
+  {{/if}}
 </li>
+ 

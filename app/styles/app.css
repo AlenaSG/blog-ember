@@ -2,6 +2,6 @@
   width: 900px;
 }
 
-#tag {
-  width: 800px;
+.tag {
+  word-wrap: break-word;
 }

@@ -1,6 +1,7 @@
 <li class="list-group-item">
 
-{{#link-to 'blog' blog.id}}<h3>{{blog.heading}}</h3>{{/link-to}} <br>{{blog.date}} <p>{{blog.tag}}</p>
+{{#link-to 'blog' blog.id}}<h3>{{blog.heading}}</h3>{{/link-to}} <br>{{blog.date}}
+<div class="tag"><p>{{blog.tag}}</p></div>
 
   {{#if isImageShowing}}
     <p><img class="img-thumbnail" src={{blog.image}} alt={{blog.heading}} width=600px ></p>

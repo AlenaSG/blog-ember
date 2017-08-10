@@ -51,3 +51,4 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 * [display latest posts with Timestamp]https://stackoverflow.com/questions/33379734/emberjs-sorting-data-retrieved-from-firebase
+* [create list-filter component] https://guides.emberjs.com/v2.5.0/tutorial/autocomplete-component/

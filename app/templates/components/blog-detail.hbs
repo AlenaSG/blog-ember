@@ -1,6 +1,14 @@
+<br>
+<button {{action 'delete' blog}}>Delete</button>
+<br>
 {{blog.date}} <h3>{{blog.heading}}</h3><br>
 <img src={{blog.image}} alt={{blog.heading}} width=600px ><br>
 {{blog.tag}}<br>
 {{blog.content}}
 
-<button {{action 'delete' blog}}>Delete</button>
+<h2> Comments </h2>
+<ul>
+  {{#each blog.comments as |comment|}}
+    {{comment-tile comment=comment destroyComment="destroyComment"}}
+  {{/each}}
+</ul>

@@ -6,6 +6,9 @@ export default Ember.Component.extend({
       if (confirm('Are you sure you want to delete this blog?')) {
         this.sendAction('destroyBlog', blog);
       }
+    },
+    destroyComment(comment) {
+      this.sendAction('destroyComment', comment);
     }
   }
 });

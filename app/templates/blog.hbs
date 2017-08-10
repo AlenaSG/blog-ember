@@ -2,4 +2,6 @@
 
 {{update-blog blog=model update="update"}}
 
-{{blog-detail blog=model destroyBlog="destroyBlog"}}
+{{blog-detail blog=model destroyBlog="destroyBlog" destroyComment="destroyComment"}}
+
+{{new-comment saveComment="saveComment" blog=model}}

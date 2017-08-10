@@ -1,11 +1,11 @@
-<li>
+<li class="list-group-item">
 
-{{#link-to 'blog' blog.id}}<h3>{{blog.heading}}</h3>{{/link-to}} <br>{{blog.date}} {{blog.tag}} 
+{{#link-to 'blog' blog.id}}<h3>{{blog.heading}}</h3>{{/link-to}} <br>{{blog.date}} <p>{{blog.tag}}</p>
 
   {{#if isImageShowing}}
-    <p><img src={{blog.image}} alt={{blog.heading}} width=600px ></p>
-    <button {{action 'imageHide'}}>Hide image</button>
+    <p><img class="img-thumbnail" src={{blog.image}} alt={{blog.heading}} width=600px ></p>
+    <button class="button btn-info" {{action 'imageHide'}}>Hide image</button>
   {{else}}
-     <button {{action 'imageShow'}}>Show image</button>
+     <button class="button btn-info" {{action 'imageShow'}}>Show image</button>
   {{/if}}
 </li>

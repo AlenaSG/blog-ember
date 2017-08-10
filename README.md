@@ -50,3 +50,4 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* [display latest posts with Timestamp]https://stackoverflow.com/questions/33379734/emberjs-sorting-data-retrieved-from-firebase

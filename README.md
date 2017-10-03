@@ -1,7 +1,6 @@
 # blog
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an Ember app developed as a blog for my friend's daughter. 
 
 ## Prerequisites
 
